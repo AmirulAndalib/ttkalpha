@@ -40,6 +40,8 @@ class Aria2Downloader(BaseTask):
         aria2_daemon_start_cmd.append("--enable-rpc")
         aria2_daemon_start_cmd.append("--disk-cache=0")
         aria2_daemon_start_cmd.append("--follow-torrent=false")
+        aria2_daemon_start_cmd.append("--follow-torrent=false")
+        aria2_daemon_start_cmd.append("--check-certificate=false")
         aria2_daemon_start_cmd.append("--max-connection-per-server=10")
         aria2_daemon_start_cmd.append("--min-split-size=10M")
         aria2_daemon_start_cmd.append("--rpc-listen-all=true")
@@ -51,7 +53,7 @@ class Aria2Downloader(BaseTask):
         aria2_daemon_start_cmd.append(f"--bt-stop-timeout=600")
         aria2_daemon_start_cmd.append(f"--max-tries=10")
         aria2_daemon_start_cmd.append(f"--retry-wait=2")
-        aria2_daemon_start_cmd.append(f"--quiet=True")
+        aria2_daemon_start_cmd.append("--quiet=true")
         #
         torlog.debug(aria2_daemon_start_cmd)
         #
