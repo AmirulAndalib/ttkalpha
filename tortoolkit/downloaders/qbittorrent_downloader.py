@@ -72,7 +72,7 @@ class QbittorrentDownloader(BaseTask):
                 "incomplete_files_ext":True,
                 "max_connec":3000,
                 "max_connec_per_torrent":3000,
-                "async_io_threads":12
+                "async_io_threads":12,
                 "disable_logging_debug_output":True
             }
             
