@@ -42,7 +42,7 @@ class QbittorrentDownloader(BaseTask):
     def get_hash(self):
         return self._ext_hash
 
-    async def get_client(self, host=None,port=None,uname=None,passw=None, retry=None) -> qba.TorrentsAPIMixIn:
+    async def get_client(self, host=None,port=None,uname=None,passw=None, retry=None, DISABLE_LOGGING_DEBUG_OUTPUT=True) -> qba.TorrentsAPIMixIn:
         """Creates and returns a client to communicate with qBittorrent server. Max Retries 2
         """
         if self._client is not None:
