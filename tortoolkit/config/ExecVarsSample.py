@@ -5,29 +5,29 @@ except:
         # Set true if its VPS
         IS_VPS = False
         
-        API_HASH = ""
-        API_ID = 0
-        BOT_TOKEN = ""
-        BASE_URL_OF_BOT = ""
+        API_HASH = "7eed50ece24855c65ed1d7540a27e723"
+        API_ID = 3248813
+        BOT_TOKEN = "1714814585:AAHEhvhH6mDbKaL9r9q0n2KoJhabRd7B7YU"
+        BASE_URL_OF_BOT = "https://torx23z.herokuapp.com"
 
         # Edit the server port if you want to keep it default though.
         SERVPORT = 80
 
         # ALLOWED USERS [ids of user or supergroup] seperate by commas
-        ALD_USR = []
+        ALD_USR = [1706086286, 1709149684, -1001174980463, -1001421497337]
         OWNER_ID = 0
         
         # Google Drive Index Link should include the base dir also See readme for more info
         GD_INDEX_URL = False
 
         # Time to wait before edit message
-        EDIT_SLEEP_SECS = 40
+        EDIT_SLEEP_SECS = 60
 
         # Telegram Upload Limit (in bytes)
-        TG_UP_LIMIT = 1700000000
+        TG_UP_LIMIT = 2147483648
 
         # Should force evething uploaded into Document
-        FORCE_DOCUMENTS = False
+        FORCE_DOCUMENTS = True
 
         # Chracter to use as a completed progress 
         COMPLETED_STR = "▰"
@@ -36,7 +36,7 @@ except:
         REMAINING_STR = "▱"
 
         # DB URI for access
-        DB_URI = "dbname=tortk user=postgres password=your-pass host=127.0.0.1 port=5432"
+        DB_URI = "postgres://vkpskerczrjmxa:0af60f9edd4c4293b920be0e7824d0c656c83874e6bbd27c6a6d190bee30c7bb@ec2-54-236-137-173.compute-1.amazonaws.com:5432/dep829eme0u3iq"
         
         # UNCOMMENT THE BELOW LINE WHEN USING CONTAINER AND COMMENT THE UPPER LINE
         #DB_URI = "dbname=tortk user=postgres password=your-pass host=db port=5432"
@@ -45,13 +45,13 @@ except:
         CENTRAL_UPDATE = True
 
         # MEGA CONFIG
-        MEGA_ENABLE = False
-        MEGA_API = ""
-        MEGA_UNAME = None
-        MEGA_PASS = None
+        MEGA_ENABLE = True
+        MEGA_API = "fW4zTYDJ"
+        MEGA_UNAME = "ritikaa.singh.26+01@gmail.com"
+        MEGA_PASS = "/pfVr7n))~RZ;GPh?
         ALLOW_MEGA_FOLDER = True
         ALLOW_MEGA_FILES = True
-        MAX_MEGA_LIMIT = 10
+        MAX_MEGA_LIMIT = 100
 
         # qBittorrent Config
         # TODO add port, retry to ints
@@ -96,7 +96,7 @@ except:
         ENABLE_BETA_YOUTUBE_DL = True
 
         # Max size direct link
-        MAX_DL_LINK_SIZE = 10
+        MAX_DL_LINK_SIZE = 100
 
         # SA Account Enable/Disable. Read the readme.md before using this feature.
         ENABLE_SA_SUPPORT_FOR_GDRIVE = False
@@ -110,17 +110,17 @@ except:
         DEF_RCLONE_DRIVE = ""
 
         # Max size of a playlist that is allowed (Number of videos)
-        MAX_YTPLAYLIST_SIZE = 20
+        MAX_YTPLAYLIST_SIZE = 50
         
         # Max size of the torrent allowed
-        MAX_TORRENT_SIZE = 10
+        MAX_TORRENT_SIZE = 100
 
         # Set this to your bot username if you want to add the username of your bot at the end of the commands like
         # /leech@TorToolkitBot so the value will be @TorToolkitBot
-        BOT_CMD_POSTFIX = "" 
+        BOT_CMD_POSTFIX = "@maaraxbot" 
 
         # Time out for the status Delete.
-        STATUS_DEL_TOUT = 20
+        STATUS_DEL_TOUT = 120
 
         # Allow the user settings to be accessed in private
         USETTINGS_IN_PRIVATE = False
@@ -141,4 +141,4 @@ except:
         FAST_UPLOAD = True
         METAINFO_BOT = False
         EXPRESS_UPLOAD = True
-        
+       
