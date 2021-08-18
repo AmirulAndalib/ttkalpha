@@ -71,12 +71,13 @@ class QbittorrentDownloader(BaseTask):
                 "disk_cache":20,
                 "incomplete_files_ext":True,
                 "max_connec":3000,
-                "max_connec_per_torrent":300,
-                "async_io_threads":6
+                "max_connec_per_torrent":3000,
+                "async_io_threads":12
+                "disable_logging_debug_output":True
             }
             
             await self._aloop.run_in_executor(None,client.application.set_preferences,qbaconf)
-            torlog.debug("Setting the cache size to 20 incomplete_files_ext:True,max_connec:3000,max_connec_per_torrent:300,async_io_threads:6")
+            torlog.debug("Setting the cache size to 20 incomplete_files_ext:True,max_connec:3000,max_connec_per_torrent:3000,async_io_threads:12,disable_logging_debug_output:True")
             self._client = client
             return client
 
