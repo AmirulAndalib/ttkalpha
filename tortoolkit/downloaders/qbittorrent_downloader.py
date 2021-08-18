@@ -68,16 +68,27 @@ class QbittorrentDownloader(BaseTask):
             torlog.info("Client connected successfully to the torrent server. :)")
             
             qbaconf = {
-                "disk_cache":20,
+                "disk_cache":64,
                 "incomplete_files_ext":True,
-                "max_connec":3000,
-                "max_connec_per_torrent":3000,
-                "async_io_threads":12,
-                "disable_logging_debug_output":True
+                "max_connec":10000,
+                "max_connec_per_torrent":1000,
+                "async_io_threads":32,
+                "disable_logging_debug_output":True,
+                "preallocate_all":True,
+                "enable_multi_connections_from_same_ip":True,
+                "recheck_completed_torrents":True,
+                "dont_count_slow_torrents":True,
+                "max_active_torrents":50,
+                "bittorrent_protocol":0,
+                "queueing_enabled":True,
+                "encryption":0,
+                "dht":True,
+                "pex":True,
+                "lsd":True,
             }
             
             await self._aloop.run_in_executor(None,client.application.set_preferences,qbaconf)
-            torlog.debug("Setting the cache size to 20 incomplete_files_ext:True,max_connec:3000,max_connec_per_torrent:3000,async_io_threads:12,disable_logging_debug_output:True")
+            torlog.debug("Setting the cache size to 20 incomplete_files_ext:True,max_connec:10000,preallocate_all:True,max_connec_per_torrent:1000,async_io_threads:32,enable_multi_connections_from_same_ip:True,recheck_completed_torrents:True,dont_count_slow_torrents:True,max_active_torrents:50,bittorrent_protocol:0,queueing_enabled:True,encryption:0,disable_logging_debug_output:True,dht:True,lsd:True,pex:True")
             self._client = client
             return client
 
