@@ -51,6 +51,7 @@ class Aria2Downloader(BaseTask):
         aria2_daemon_start_cmd.append(f"--bt-stop-timeout=100")
         aria2_daemon_start_cmd.append(f"--max-tries=10")
         aria2_daemon_start_cmd.append(f"--retry-wait=2")
+        aria2_daemon_start_cmd.append(f"--quiet=True")
         #
         torlog.debug(aria2_daemon_start_cmd)
         #
