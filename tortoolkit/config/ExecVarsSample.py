@@ -48,7 +48,7 @@ except:
         MEGA_ENABLE = True
         MEGA_API = "fW4zTYDJ"
         MEGA_UNAME = "ritikaa.singh.26+01@gmail.com"
-        MEGA_PASS = "/pfVr7n))~RZ;GPh?
+        MEGA_PASS = "/pfVr7n))~RZ;GPh"
         ALLOW_MEGA_FOLDER = True
         ALLOW_MEGA_FILES = True
         MAX_MEGA_LIMIT = 100
