@@ -7,8 +7,8 @@ except:
         
         API_HASH = "7eed50ece24855c65ed1d7540a27e723"
         API_ID = 3248813
-        BOT_TOKEN = "1729820787:AAHH-9dvIcyDRihEv_4IGDFrtOwcpUEmYr0"
-        BASE_URL_OF_BOT = "https://ondiveeranx22.herokuapp.com"
+        BOT_TOKEN = "1714814585:AAHEhvhH6mDbKaL9r9q0n2KoJhabRd7B7YU"
+        BASE_URL_OF_BOT = "https://torx23z.herokuapp.com"
 
         # Edit the server port if you want to keep it default though.
         SERVPORT = 80
