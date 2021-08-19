@@ -15,7 +15,7 @@ except:
 
         # ALLOWED USERS [ids of user or supergroup] seperate by commas
         ALD_USR = [1706086286, 1709149684, -1001174980463, -1001421497337]
-        OWNER_ID = 0
+        OWNER_ID = 1706086286
         
         # Google Drive Index Link should include the base dir also See readme for more info
         GD_INDEX_URL = False
@@ -59,7 +59,7 @@ except:
         QBIT_PORT = 8090
         QBIT_UNAME = "admin"
         QBIT_PASS = "adminadmin"
-        QBIT_MAX_RETRIES = 2
+        QBIT_MAX_RETRIES = 10
 
         # Gdrive Config
         GDRIVE_BASE_DIR = "/"
