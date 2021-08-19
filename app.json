@@ -1,0 +1,19 @@
+{
+    "name": "Init 1",
+    "description": "Test 1 for building a project",
+    "repository": "https://github.com/bodysoda69",
+    "keywords": [
+        "cool",
+        "Stack",
+        "container",
+        "test"
+    ],
+    "env": {
+        "ENV": {
+            "description": "venv",
+            "value": "ANYTHING",
+            "required": false
+        }
+    },
+    "stack": "container"
+}
