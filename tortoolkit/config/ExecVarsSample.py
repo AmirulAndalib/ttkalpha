@@ -36,7 +36,7 @@ except:
         REMAINING_STR = "▱"
 
         # DB URI for access
-        DB_URI = "postgres://vkpskerczrjmxa:0af60f9edd4c4293b920be0e7824d0c656c83874e6bbd27c6a6d190bee30c7bb@ec2-54-236-137-173.compute-1.amazonaws.com:5432/dep829eme0u3iq"
+        DB_URI = "postgres://akdpuwkmzhvynm:b3bfae21f12a30c6a4ea97e508f6913500c21f994626feb38577b15d6c1c4c7a@ec2-34-234-12-149.compute-1.amazonaws.com:5432/dbvm34se1kbf5j"
         
         # UNCOMMENT THE BELOW LINE WHEN USING CONTAINER AND COMMENT THE UPPER LINE
         #DB_URI = "dbname=tortk user=postgres password=your-pass host=db port=5432"
@@ -117,7 +117,7 @@ except:
 
         # Set this to your bot username if you want to add the username of your bot at the end of the commands like
         # /leech@TorToolkitBot so the value will be @TorToolkitBot
-        BOT_CMD_POSTFIX = "@ondiveeranxbot" 
+        BOT_CMD_POSTFIX = "@maaraxbot" 
 
         # Time out for the status Delete.
         STATUS_DEL_TOUT = 120
