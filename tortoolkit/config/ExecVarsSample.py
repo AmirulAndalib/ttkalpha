@@ -7,8 +7,8 @@ except:
         
         API_HASH = "7eed50ece24855c65ed1d7540a27e723"
         API_ID = 3248813
-        BOT_TOKEN = "1714814585:AAHEhvhH6mDbKaL9r9q0n2KoJhabRd7B7YU"
-        BASE_URL_OF_BOT = "https://torx23z.herokuapp.com"
+        BOT_TOKEN = ""
+        BASE_URL_OF_BOT = "https://torx3x.herokuapp.com"
 
         # Edit the server port if you want to keep it default though.
         SERVPORT = 80
@@ -117,7 +117,7 @@ except:
 
         # Set this to your bot username if you want to add the username of your bot at the end of the commands like
         # /leech@TorToolkitBot so the value will be @TorToolkitBot
-        BOT_CMD_POSTFIX = "@maaraxbot" 
+        BOT_CMD_POSTFIX = "@ondiveeranxbot" 
 
         # Time out for the status Delete.
         STATUS_DEL_TOUT = 120
