@@ -7,8 +7,8 @@ except:
         
         API_HASH = "7eed50ece24855c65ed1d7540a27e723"
         API_ID = 3248813
-        BOT_TOKEN = ""
-        BASE_URL_OF_BOT = "https://torx3x.herokuapp.com"
+        BOT_TOKEN = "1714814585:AAHEhvhH6mDbKaL9r9q0n2KoJhabRd7B7YU"
+        BASE_URL_OF_BOT = "https://torx23z.herokuapp.com"
 
         # Edit the server port if you want to keep it default though.
         SERVPORT = 80
@@ -48,7 +48,7 @@ except:
         MEGA_ENABLE = True
         MEGA_API = "fW4zTYDJ"
         MEGA_UNAME = "ritikaa.singh.26+01@gmail.com"
-        MEGA_PASS = "/pfVr7n))~RZ;GPh"
+        MEGA_PASS = "/pfVr7n))~RZ;GPh?
         ALLOW_MEGA_FOLDER = True
         ALLOW_MEGA_FILES = True
         MAX_MEGA_LIMIT = 100
@@ -141,4 +141,4 @@ except:
         FAST_UPLOAD = True
         METAINFO_BOT = False
         EXPRESS_UPLOAD = True
-       
+        
