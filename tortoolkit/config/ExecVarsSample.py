@@ -7,8 +7,8 @@ except:
         
         API_HASH = "7eed50ece24855c65ed1d7540a27e723"
         API_ID = 3248813
-        BOT_TOKEN = "1714814585:AAHEhvhH6mDbKaL9r9q0n2KoJhabRd7B7YU"
-        BASE_URL_OF_BOT = "https://torx23z.herokuapp.com"
+        BOT_TOKEN = "1729820787:AAHH-9dvIcyDRihEv_4IGDFrtOwcpUEmYr0"
+        BASE_URL_OF_BOT = "https://ondiveeran1x.herokuapp.com"
 
         # Edit the server port if you want to keep it default though.
         SERVPORT = 80
@@ -36,7 +36,7 @@ except:
         REMAINING_STR = "▱"
 
         # DB URI for access
-        DB_URI = "postgres://akdpuwkmzhvynm:b3bfae21f12a30c6a4ea97e508f6913500c21f994626feb38577b15d6c1c4c7a@ec2-34-234-12-149.compute-1.amazonaws.com:5432/dbvm34se1kbf5j"
+        DB_URI = ""
         
         # UNCOMMENT THE BELOW LINE WHEN USING CONTAINER AND COMMENT THE UPPER LINE
         #DB_URI = "dbname=tortk user=postgres password=your-pass host=db port=5432"
@@ -117,7 +117,7 @@ except:
 
         # Set this to your bot username if you want to add the username of your bot at the end of the commands like
         # /leech@TorToolkitBot so the value will be @TorToolkitBot
-        BOT_CMD_POSTFIX = "@maaraxbot" 
+        BOT_CMD_POSTFIX = "@ondiveeranxbot" 
 
         # Time out for the status Delete.
         STATUS_DEL_TOUT = 120
